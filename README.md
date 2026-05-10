@@ -279,7 +279,7 @@ Open a second terminal and try these while the quiz is running:
 ```bash
 # See all 3 running containers and their status
 docker ps
-![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20211152.png)
+
 
 # Stream live logs from the quiz app
 docker logs dockerquiz-app -f
@@ -308,6 +308,9 @@ docker network inspect docker-quiz-v2_quiz-network
 # See all volumes
 docker volume ls
 ```
+
+![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20211152.png)
+
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20211217.png)
 
 ![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20211309.png)
@@ -318,9 +321,11 @@ docker volume ls
 
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212344.png)
 
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/033d6034ea302608cecc7be81d521525a14f83ab/images/Screenshot%202026-05-08%20212420.png)
+
 ![image](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212600.png)
 
-![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/033d6034ea302608cecc7be81d521525a14f83ab/images/Screenshot%202026-05-08%20212420.png)
+
 
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212624.png)
 
