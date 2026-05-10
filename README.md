@@ -142,7 +142,7 @@ Once you see `quiz-app | * Running on http://0.0.0.0:5000` in your terminal:
 | Service | URL | What it does |
 |---------|-----|--------------|
 | 🐋 Quiz App | http://localhost:5000 | Create your profile and play the quiz |
-| <td colspan="3"><img src="https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20205512.png" width="100%"></td> | | |
+
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20205512.png)
 | 🍃 Mongo Express | http://localhost:8081 | Browse your MongoDB data visually |
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20210453.png)
