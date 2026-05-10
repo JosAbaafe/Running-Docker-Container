@@ -120,6 +120,7 @@ cd devops-labs/Docker\ \&\ Containers/Running\ Your\ First\ Container/running\ d
 ```bash
 docker compose up --build
 ```
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20205414.png)
 
 This single command will:
 
@@ -141,8 +142,9 @@ Once you see `quiz-app | * Running on http://0.0.0.0:5000` in your terminal:
 | Service | URL | What it does |
 |---------|-----|--------------|
 | 🐋 Quiz App | http://localhost:5000 | Create your profile and play the quiz |
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20205512.png)
 | 🍃 Mongo Express | http://localhost:8081 | Browse your MongoDB data visually |
-
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20210453.png)
 ---
 
 ### Step 4 — Play the quiz, then explore your data
@@ -152,6 +154,8 @@ Once you see `quiz-app | * Running on http://0.0.0.0:5000` in your terminal:
 3. Answer all 20 Docker questions
 4. On the results page, follow the Mongo Express guide
 5. Go to **http://localhost:8081** → click `dockerquiz` → open `profiles`, `results`, and `quiz_states`
+
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20210659.png)
 
 You will see your own data — written by the Flask container, stored in the MongoDB container, and browsed through the Mongo Express container. Three containers, one network, one command.
 
@@ -167,6 +171,8 @@ docker compose down
 docker compose down -v
 ```
 
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20210834.png)
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20210920.png)
 ---
 
 ##  Understanding the docker-compose.yml
@@ -273,7 +279,7 @@ Open a second terminal and try these while the quiz is running:
 ```bash
 # See all 3 running containers and their status
 docker ps
-
+![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20211152.png)
 # Stream live logs from the quiz app
 docker logs dockerquiz-app -f
 
