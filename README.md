@@ -279,6 +279,7 @@ Open a second terminal and try these while the quiz is running:
 ```bash
 # See all 3 running containers and their status
 docker ps
+![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20211152.png)
 
 # Stream live logs from the quiz app
 docker logs dockerquiz-app -f
@@ -307,7 +308,6 @@ docker network inspect docker-quiz-v2_quiz-network
 # See all volumes
 docker volume ls
 ```
-![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/8bb1685cf1f44bba554e8fdba5afd87e43bcbe40/images/Screenshot%202026-05-08%20211152.png)
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20211217.png)
 
 ![iamge alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20211309.png)
@@ -320,8 +320,10 @@ docker volume ls
 
 ![image](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212600.png)
 
-![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212624.png)
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/033d6034ea302608cecc7be81d521525a14f83ab/images/Screenshot%202026-05-08%20212420.png)
+
+![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212624.png)
+
 
 ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20212650.png)
 
@@ -379,9 +381,10 @@ docker compose up --build
 
 - Add a new question to the `QUESTIONS` list in `app.py`
 - Change the port mapping in `docker-compose.yml` from `"5000:5000"` to `"8000:5000"` and access the app at port 8000
-  ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20213438.png)
-  ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20215035.png)
+- ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20213438.png)
+  
 - Add a new field to the profile form in `index.html` and see it appear in MongoDB
+- ![image alt](https://github.com/JosAbaafe/Running-Docker-Container/blob/c1b358798d80f47ac884c8f7e9a601ad0ec7a442/images/Screenshot%202026-05-08%20215035.png)
 - Edit the CSS variables at the top of `base.html` to change the entire colour scheme
 - Comment out `depends_on` in `docker-compose.yml` and observe what happens on startup
 
