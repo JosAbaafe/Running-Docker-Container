@@ -8,155 +8,44 @@
 
 A hands-on, Kahoot-style quiz application built with **Python + Flask, MongoDB, and Mongo Express** — fully containerized using Docker Compose.
 
-Built by **Samuel Nartey** as a beginner-friendly, zero-prerequisites introduction to Docker and container concepts.
+Built as a beginner-friendly introduction to Docker, container networking, volumes, and multi-container applications.
 
 ---
 
 # 📚 Overview
 
-DockerQuiz is more than just a quiz application.
+DockerQuiz is designed to help beginners learn Docker by interacting with a real multi-container application instead of isolated examples.
 
-It is a practical Docker learning environment designed to help beginners understand:
+The project demonstrates:
 
 - Multi-container applications
-- Docker networking
-- Service discovery
-- Persistent volumes
-- Container communication
 - Docker Compose orchestration
-
-Instead of reading isolated Docker commands, users interact with a real application stack running across multiple containers.
-
----
-
-# 🚀 Quick Start
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/samuel-nartey/devops-labs.git
-cd devops-labs
-```
+- Container networking
+- Docker DNS/service discovery
+- Persistent volumes
+- Flask + MongoDB integration
+- Real-world container architecture
 
 ---
 
-## Start All Containers
+# 🚀 Features
 
-```bash
-docker compose up --build
-```
-
-Docker will:
-
-- Build the Flask application image
-- Pull MongoDB image
-- Pull Mongo Express image
-- Create the internal Docker network
-- Create persistent volumes
-- Start all services
+✅ Flask-based quiz application  
+✅ MongoDB database integration  
+✅ Mongo Express database dashboard  
+✅ Multi-container Docker Compose stack  
+✅ Persistent Docker volumes  
+✅ Docker networking and DNS  
+✅ Interactive quiz with scoring system  
+✅ Beginner-friendly architecture  
 
 ---
 
-# 🌐 Application URLs
-
-| Service | URL | Purpose |
-|---|---|---|
-| 🐋 Quiz Application | http://localhost:5000 | Play the Docker quiz |
-| 🍃 Mongo Express | http://localhost:8081 | View MongoDB data visually |
-
----
-
-# 📸 Screenshots
-
-> Create a folder named `screenshots/` in your repository and place all screenshots there.
-
----
-
-## 🏠 Quiz Homepage
-
-_Add screenshot here_
-
-```md
-![Quiz Homepage](screenshots/homepage.png)
-```
-
----
-
-## ❓ Quiz Questions Interface
-
-_Add screenshot here_
-
-```md
-![Question Interface](screenshots/question-page.png)
-```
-
----
-
-## ✅ Answer Feedback Page
-
-_Add screenshot here_
-
-```md
-![Feedback Page](screenshots/feedback-page.png)
-```
-
----
-
-## 🏆 Final Results Page
-
-_Add screenshot here_
-
-```md
-![Results Page](screenshots/results-page.png)
-```
-
----
-
-## 🍃 Mongo Express Dashboard
-
-_Add screenshot here_
-
-```md
-![Mongo Express](screenshots/mongo-express.png)
-```
-
----
-
-## 🐳 Running Containers (`docker ps`)
-
-_Add screenshot here_
-
-```md
-![Docker PS](screenshots/docker-ps.png)
-```
-
----
-
-## 🛠️ Docker Compose Startup Logs
-
-_Add screenshot here_
-
-```md
-![Docker Compose Logs](screenshots/docker-compose-logs.png)
-```
-
----
-
-## 🌐 Docker Network Inspection
-
-_Add screenshot here_
-
-```md
-![Docker Network](screenshots/docker-network.png)
-```
-
----
-
-# 🏗️ 3-Container Architecture
+# 🏗️ Architecture
 
 ```text
 ┌────────────────────────────────────────────────────────────┐
-│                     quiz-network (bridge)                 │
+│                    quiz-network (bridge)                  │
 │                                                            │
 │  ┌──────────────┐     ┌──────────────┐    ┌─────────────┐ │
 │  │  quiz-app    │────▶│    mongo     │◀──▶│mongo-express│ │
@@ -167,17 +56,57 @@ _Add screenshot here_
 
 ---
 
-# 🧠 Key Docker Concept — Container DNS
+# 📸 Screenshots
 
-The Flask application connects to MongoDB using the Docker Compose service name:
+> Create a folder named `screenshots/` in your repository and place all screenshots there.
 
-```python
-MONGO_URI = "mongodb://mongo:27017/"
-```
+---
 
-Docker automatically resolves `mongo` to the correct container IP using Docker’s built-in DNS system.
+## 🏠 Homepage
 
-This is how real-world containerized applications communicate internally.
+![Homepage](screenshots/homepage.png)
+
+---
+
+## ❓ Quiz Questions
+
+![Questions](screenshots/questions.png)
+
+---
+
+## ✅ Feedback Page
+
+![Feedback](screenshots/feedback.png)
+
+---
+
+## 🏆 Final Results
+
+![Results](screenshots/results.png)
+
+---
+
+## 🍃 Mongo Express Dashboard
+
+![Mongo Express](screenshots/mongo-express.png)
+
+---
+
+## 🐳 Running Containers
+
+![Docker PS](screenshots/docker-ps.png)
+
+---
+
+## 🌐 Docker Network
+
+![Docker Network](screenshots/docker-network.png)
+
+---
+
+## 🛠️ Docker Compose Logs
+
+![Compose Logs](screenshots/docker-compose-logs.png)
 
 ---
 
@@ -185,7 +114,7 @@ This is how real-world containerized applications communicate internally.
 
 - Docker
 - Docker Compose
-- Python 3
+- Python
 - Flask
 - MongoDB
 - Mongo Express
@@ -216,35 +145,31 @@ running docker compose/
 
 ---
 
-# ⚙️ Docker Compose Configuration
+# ⚙️ Setup Instructions
 
-The application stack contains three services:
+## Clone Repository
 
-## quiz-app
-- Flask web application
-- Built from custom Dockerfile
-- Runs on port 5000
-
-## mongo
-- MongoDB database
-- Stores quiz profiles and results
-- Uses persistent Docker volumes
-
-## mongo-express
-- Web-based MongoDB admin dashboard
-- Accessible on port 8081
+```bash
+git clone https://github.com/samuel-nartey/devops-labs.git
+cd devops-labs
+```
 
 ---
 
-# 💾 MongoDB Collections
+## Start the Application
 
-The application stores data in:
+```bash
+docker compose up --build
+```
 
-| Collection | Purpose |
+---
+
+# 🌐 Access the Application
+
+| Service | URL |
 |---|---|
-| `profiles` | User profile information |
-| `quiz_states` | Live quiz progress |
-| `results` | Final quiz scores |
+| Quiz Application | http://localhost:5000 |
+| Mongo Express | http://localhost:8081 |
 
 ---
 
@@ -258,34 +183,10 @@ docker ps
 
 ---
 
-## View Application Logs
+## View Logs
 
 ```bash
 docker logs dockerquiz-app -f
-```
-
----
-
-## Open Shell Inside Flask Container
-
-```bash
-docker exec -it dockerquiz-app bash
-```
-
----
-
-## Open MongoDB Shell
-
-```bash
-docker exec -it dockerquiz-mongo mongosh
-```
-
----
-
-## Inspect Docker Networks
-
-```bash
-docker network inspect quiz-network
 ```
 
 ---
@@ -306,19 +207,28 @@ docker compose down -v
 
 ---
 
+# 💾 MongoDB Collections
+
+| Collection | Purpose |
+|---|---|
+| profiles | User profile information |
+| quiz_states | Current quiz progress |
+| results | Final quiz results |
+
+---
+
 # 🎯 Learning Outcomes
 
-Through this project, I gained practical experience with:
+Through this project, I gained hands-on experience with:
 
 - Docker containerization
 - Docker Compose orchestration
-- Multi-container applications
-- Docker networking
-- Persistent storage using volumes
+- Container networking
+- Docker DNS and service discovery
+- Persistent storage using Docker volumes
+- Flask application containerization
 - MongoDB integration
-- Flask containerization
-- Service discovery using Docker DNS
-- Real-world application architecture
+- Real-world multi-container architecture
 
 ---
 
@@ -326,27 +236,13 @@ Through this project, I gained practical experience with:
 
 Potential enhancements include:
 
+- Kubernetes deployment
+- GitHub Actions CI/CD
+- Redis caching
 - User authentication
 - Leaderboards
-- Kubernetes deployment
-- CI/CD automation with GitHub Actions
-- Redis caching
 - Multi-stage Docker builds
 - Container vulnerability scanning
-- Docker image publishing to Docker Hub
-
----
-
-# 🤝 Contributing
-
-Contributions and suggestions are welcome.
-
-To contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
 
 ---
 
@@ -361,7 +257,7 @@ To contribute:
 
 # ⭐ Support
 
-If this project helped you learn Docker or containerization, consider giving the repository a star.
+If this project helped you learn Docker, consider giving the repository a star.
 
 ---
 
