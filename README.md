@@ -56,15 +56,9 @@ The project demonstrates:
 
 ---
 
-# 📸 Screenshots
-
-> Create a folder named `screenshots/` in your repository and place all screenshots there.
-
----
-
 ## 🏠 Homepage
 
-![Homepage](screenshots/homepage.png)
+![Homepage](https://github.com/JosAbaafe/Running-Docker-Container/blob/4c6a1187339a079fced8c602f6d31a52f4f24f96/images/Screenshot%202026-05-08%20205545.png)
 
 ---
 
@@ -74,9 +68,9 @@ The project demonstrates:
 
 ---
 
-## ✅ Feedback Page
+## ✅ Results Page
 
-![Feedback](screenshots/feedback.png)
+![Feedback](https://github.com/JosAbaafe/Running-Docker-Container/blob/4c6a1187339a079fced8c602f6d31a52f4f24f96/images/Screenshot%202026-05-08%20210659.png)
 
 ---
 
@@ -88,7 +82,7 @@ The project demonstrates:
 
 ## 🍃 Mongo Express Dashboard
 
-![Mongo Express](screenshots/mongo-express.png)
+![Mongo Express](https://github.com/JosAbaafe/Running-Docker-Container/blob/4c6a1187339a079fced8c602f6d31a52f4f24f96/images/Screenshot%202026-05-08%20210453.pngg)
 
 ---
 
