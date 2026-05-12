@@ -64,7 +64,7 @@ The project demonstrates:
 
 ## ❓ Quiz Questions
 
-![Questions](screenshots/questions.png)
+![Questions](https://github.com/JosAbaafe/Running-Docker-Container/blob/7867182c9516e58ee50ea3500124099ce366bbf4/images/quiz.png)
 
 ---
 
