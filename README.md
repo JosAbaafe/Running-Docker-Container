@@ -242,7 +242,7 @@ Potential enhancements include:
 
 # 👨‍💻 Author
 
-**Samuel Nartey**
+**Emmanuel A. Abaafe**
 
 - GitHub: https://github.com/samuel-nartey
 - Repository: https://github.com/samuel-nartey/devops-labs
