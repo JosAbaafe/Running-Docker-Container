@@ -136,7 +136,7 @@ running docker compose/
 
 ```bash
 git clone https://github.com/JosAbaafe/Running-Docker-Container.git
-cd devops-labs
+cd Running-Docker-Container
 ```
 
 ---
