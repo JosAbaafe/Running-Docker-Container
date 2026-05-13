@@ -75,7 +75,7 @@ The project demonstrates:
 
 ## 🍃 Mongo Express Dashboard
 
-![Mongo Express](https://github.com/JosAbaafe/Running-Docker-Container/blob/4c6a1187339a079fced8c602f6d31a52f4f24f96/images/Screenshot%202026-05-08%20210453.pngg)
+![Mongo Express](https://github.com/JosAbaafe/Running-Docker-Container/blob/1fd2beba4053ae73226155356e43d2016497a578/images/mongo.png)
 
 ---
 
