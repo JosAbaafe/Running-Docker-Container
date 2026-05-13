@@ -226,35 +226,13 @@ Through this project, I gained hands-on experience with:
 
 ---
 
-# 🔥 Future Improvements
-
-Potential enhancements include:
-
-- Kubernetes deployment
-- GitHub Actions CI/CD
-- Redis caching
-- User authentication
-- Leaderboards
-- Multi-stage Docker builds
-- Container vulnerability scanning
-
----
-
 # 👨‍💻 Author
 
 **Emmanuel A. Abaafe**
 
-- GitHub: https://github.com/samuel-nartey
-- Repository: https://github.com/samuel-nartey/devops-labs
+- GitHub: https://github.com/JosAbaafe/
+- Repository: https://github.com/JosAbaafe/Running-Docker-Container.git
 
 ---
 
-# ⭐ Support
 
-If this project helped you learn Docker, consider giving the repository a star.
-
----
-
-# 📜 License
-
-MIT License — free to use, modify, and share.
