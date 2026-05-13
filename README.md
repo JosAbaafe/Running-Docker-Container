@@ -37,7 +37,6 @@ The project demonstrates:
 ✅ Persistent Docker volumes  
 ✅ Docker networking and DNS  
 ✅ Interactive quiz with scoring system  
-✅ Beginner-friendly architecture  
 
 ---
 
@@ -112,8 +111,6 @@ The project demonstrates:
 - Flask
 - MongoDB
 - Mongo Express
-- Jinja2
-- PyMongo
 
 ---
 
