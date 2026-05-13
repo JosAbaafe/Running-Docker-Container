@@ -81,7 +81,7 @@ The project demonstrates:
 
 ## 🐳 Running Containers
 
-![Docker PS](screenshots/docker-ps.png)
+![Docker PS](https://github.com/JosAbaafe/Running-Docker-Container/blob/59714abb1551f31e95ff060bd8381e3815f844df/images/container.png)
 
 ---
 
