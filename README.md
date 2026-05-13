@@ -93,7 +93,7 @@ The project demonstrates:
 
 ## 🛠️ Docker Compose Logs
 
-![Compose Logs](screenshots/docker-compose-logs.png)
+![Compose Logs](https://github.com/JosAbaafe/Running-Docker-Container/blob/ca69dd81188c83e37084d9eab3b5fb881a5297b0/images/dockerlogs.png)
 
 ---
 
