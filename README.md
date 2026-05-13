@@ -73,12 +73,6 @@ The project demonstrates:
 
 ---
 
-## 🏆 Final Results
-
-![Results](screenshots/results.png)
-
----
-
 ## 🍃 Mongo Express Dashboard
 
 ![Mongo Express](https://github.com/JosAbaafe/Running-Docker-Container/blob/4c6a1187339a079fced8c602f6d31a52f4f24f96/images/Screenshot%202026-05-08%20210453.pngg)
@@ -93,7 +87,7 @@ The project demonstrates:
 
 ## 🌐 Docker Network
 
-![Docker Network](screenshots/docker-network.png)
+![Docker Network](https://github.com/JosAbaafe/Running-Docker-Container/blob/111ebb7e59fc77057bdf38351d941dced38536f5/images/Screenshot%202026-05-08%20212420.png)
 
 ---
 
